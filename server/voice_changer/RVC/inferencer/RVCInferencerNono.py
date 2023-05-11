@@ -3,7 +3,7 @@ from torch import device
 
 from const import EnumInferenceTypes
 from voice_changer.RVC.inferencer.Inferencer import Inferencer
-from infer_pack.models import (  # type:ignore
+from voice_changer.RVC.inferpack.models import (  # type:ignore
     SynthesizerTrnMs256NSFsid_nono,
 )
 

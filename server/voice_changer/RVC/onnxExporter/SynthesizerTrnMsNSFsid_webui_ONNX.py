@@ -1,5 +1,5 @@
 from torch import nn
-from infer_pack.models import (  # type:ignore
+from voice_changer.RVC.inferpack.models import (  # type:ignore
     GeneratorNSF,
     PosteriorEncoder,
     ResidualCouplingBlock,

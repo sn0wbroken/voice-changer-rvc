@@ -2,13 +2,13 @@ import math
 import torch
 from torch import nn
 
-from infer_pack.models import (  # type:ignore
+from voice_changer.RVC.inferpack.models import (  # type:ignore
     GeneratorNSF,
     PosteriorEncoder,
     ResidualCouplingBlock,
     Generator,
 )
-from infer_pack import commons, attentions  # type:ignore
+from voice_changer.RVC.inferpack import commons, attentions  # type:ignore
 
 
 class TextEncoder(nn.Module):
